@@ -21,6 +21,6 @@ jobs:
       - name: Add unit tests
         run: go test -cover ./...
 
-    steps:
+    
       - name: Style
         run: test -z $(go fmt ./...)
